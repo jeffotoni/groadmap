@@ -1,8 +1,8 @@
-##### (Topics to be covered on our YouTube channel»)[https://www.youtube.com/user/jeffotoni]
+##### (Temas a serem abordados em nosso canal do YouTube»)[https://www.youtube.com/user/jeffotoni]
 
-[Português](./README_ptbr.md)
+[English](./README.md)
 
-> The intent of this guide is to give you an idea about the Go ecosystem and help guide your learning if you are confused. It is mainly focused on presenting the tools and concepts used in web development.
+> A intenção deste guia é dar uma ideia sobre o ecossistema Go e ajudar a orientar seu aprendizado se você estiver confuso. Ele é focado principalmente em apresentar as ferramentas e conceitos ultilizados no desenvolvimento web.
 
 # Go Roadmap
 
@@ -14,19 +14,19 @@
     </embed>
 </object>
 
-# Sumary
+# Sumário
 
-1. Basic & Intermediate Concepts
+1. Conceitos Básicos & Intermediários
     - generics / [T any](s []T)   
-    - constants, variables, iota
+    - gonstantes, variáveis, iota
     - func init, types
-    - funcs, variadic, return multiples values
-    - closures / anonymous functions
+    - funcs, variadic, return multiplos valores
+    - closures / funções anônimas
     - array, slice
     - for, switch, if, else, range
     - make, new
     - maps
-    - pointers, structs, methods
+    - ponteiros, structs, métodos
     - type interface, interface{}
     - defer, error, panic, recover
 
@@ -66,7 +66,7 @@
 
     - go install golang.org/x/website/tour@latest
 
-5. Modules
+5. Modulos
     - package & import
         - import ..
         - import "fml"
@@ -134,7 +134,7 @@
         - http.NewRequest, http.NewRequestContext
         - Context.WithCancel
 
-    83. Web Frameworks
+    83. Frameworks Web
         - [gin](https://github.com/gin-gonic/gin)
         - [echo](https://github.com/labstack/echo)
         - [beego](https://github.com/beego/beego)
@@ -169,7 +169,7 @@
         - [go-wrap](https://github.com/hexdigest/gowrap)
         - [interpose](https://github.com/carbocation/interpose)
         - [rye](https://github.com/InVisionApp/rye)
-        - Middeware libs
+        - Libs middleware
             - CORS
             - rate limit
             - logging
@@ -180,13 +180,13 @@
             - jwt
             - logger
             - cache
-            - Instrumentation
+            - Instrumentação
                 - [Prometheus](https://github.com/prometheus/prometheus)
                 - [Datadog](https://github.com/DataDog/datadog-agent)
                 - [New Relic](https://github.com/newrelic/go-agent)
                 - [loggly](https://github.com/segmentio/go-loggly)
 
-9. Previous Knowledge
+9. Conhecimentos Prévios
     - [git](https://git-scm.com/)
         - git init
         - git add .
@@ -212,32 +212,32 @@
     - [openssl](https://www.openssl.org/)
     - ssh-keygen
     - https/http
-    - [tls/mtls](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/)
+    - [tls/mtls](https://www.cloudflare.com/pt-br/learning/access-management/what-is-mutual-tls/)
 
-    - Relational
+    - Relacional
         - [PostgreSQL](https://www.postgresql.org/)
         - [MySql](https://www.mysql.com/)
-        - [SqlServer](https://www.microsoft.com/sql-server/sql-server-2019)
+        - [SqlServer](https://www.microsoft.com/pt-br/sql-server/sql-server-2019)
         - [Oracle](https://www.oracle.com/br/database/)
         - [MariaDB](https://mariadb.org/)
 
     - NoSql
-        - [MongoDB](https://www.mongodb.com)
+        - [MongoDB](https://www.mongodb.com/pt-br)
         - [Cassandra](https://cassandra.apache.org/_/index.html)
         - [RavenDB](https://ravendb.net/)
         - [RethinkDB](https://rethinkdb.com/)
         - [CouchDB](https://couchdb.apache.org/)
         - [CockroachDB](https://www.cockroachlabs.com/)
         - [Redis](https://redis.io/)
-        - [Elasticsearch](https://www.elastic.co/what-is/elasticsearch)
+        - [Elasticsearch](https://www.elastic.co/pt/what-is/elasticsearch)
         - [ArangoDB](https://www.arangodb.com/)
 
     - Queue
         - [RabbitMQ](https://www.rabbitmq.com/)
         - [KubeMQ](https://kubemq.io/)
-        - [SQS Aws](https://aws.amazon.com/sqs/)
-        - [Pub/Sub Google Cloud](https://cloud.google.com/pubsub)
-        - [Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
+        - [SQS Aws](https://aws.amazon.com/pt/sqs/)
+        - [Pub/Sub Google Cloud](https://cloud.google.com/pubsub?hl=pt-br)
+        - [Beanstalk](https://aws.amazon.com/pt/elasticbeanstalk/)
         - [ActiveMQ](https://activemq.apache.org/)
 
     - Stream
@@ -245,15 +245,15 @@
         - [Redpanda](https://redpanda.com/)
         - [KubeMQ](https://kubemq.io/)
         - [Nats](https://nats.io/)
-        - [Kinesis Aws](https://aws.amazon.com/kinesis/)
+        - [Kinesis Aws](https://aws.amazon.com/pt/kinesis/)
 
-    - Protocols
-        - Applications
+    - Protocolos
+        - Aplicações
             - [gRPC](https://grpc.io/)
-            - [rpc](https://en.wikipedia.org/wiki/Remote_procedure_call)
-            - [xml-rpc](https://en.wikipedia.org/wiki/XML-RPC)
-            - [WebSocket](https://developer.mozilla.org/docs/Web/API/WebSockets_API)
-        - Serialization
+            - [rpc](https://pt.wikipedia.org/wiki/Chamada_de_procedimento_remoto)
+            - [xml-rpc](https://pt.wikipedia.org/wiki/XML-RPC)
+            - [WebSocket](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API)
+        - Serialização
             - [Protobuf Buffer](https://developers.google.com/protocol-buffers)
             - [gob](https://go.dev/blog/gob)
             - [msgpack](https://msgpack.org/)
@@ -262,9 +262,9 @@
             - [Thrift](https://thrift.apache.org/)
             - [json](https://www.json.org/json-en.html)
             - [xml](https://pt.wikipedia.org/wiki/XML)
-        - [tcp](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
-        - [udp](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
-        - [http](https://developer.mozilla.org/docs/Web/HTTP/Overview)
-        - [http2](https://developers.google.com/web/fundamentals/performance/http2)
-        - [http3](https://en.wikipedia.org/wiki/HTTP/3)
+        - [tcp](https://pt.wikipedia.org/wiki/Protocolo_de_controle_de_transmiss%C3%A3o)
+        - [udp](https://pt.wikipedia.org/wiki/Protocolo_de_datagrama_do_usu%C3%A1rio)
+        - [http](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
+        - [http2](https://developers.google.com/web/fundamentals/performance/http2?hl=pt-br)
+        - [http3](https://pt.wikipedia.org/wiki/HTTP/3)
         - [MQTT](https://mqtt.org/)
