@@ -1,4 +1,4 @@
-##### (Topics to be covered on our YouTube channel»)[https://www.youtube.com/user/jeffotoni]
+###### [Topics to be covered on our YouTube channel»](https://www.youtube.com/user/jeffotoni)
 
 [Português](./README_ptbr.md)
 
