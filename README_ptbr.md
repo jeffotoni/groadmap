@@ -1,4 +1,4 @@
-##### (Temas a serem abordados em nosso canal do YouTube»)[https://www.youtube.com/user/jeffotoni]
+##### [Temas a serem abordados em nosso canal do YouTube»](https://www.youtube.com/user/jeffotoni)
 
 [English](./README.md)
 
