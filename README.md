@@ -31,11 +31,19 @@
     - closures/anonymous functions
     - array
     - slice
-    - for, switch, if, else, range
-    - make, new
+    - for
+    - switch 
+    - if 
+    - else
+    - range
+    - make
+    - new
     - maps
-    - pointers, structs, methods
-    - type interface, interface{}
+    - pointers
+    - structs
+    - methods
+    - type interface
+    - interface{}
     - defer, error, panic, recover
 
 2. Goroutines
