@@ -20,11 +20,17 @@
 
 1. Basic & Intermediate Concepts
     - generics / [T any](s []T)   
-    - constants, variables, iota
-    - func init, types
-    - funcs, variadic, return multiples values
-    - closures / anonymous functions
-    - array, slice
+    - constants
+    - variables
+    - iota
+    - func init
+    - types
+    - funcs 
+    - variadic 
+    - return multiples values
+    - closures/anonymous functions
+    - array
+    - slice
     - for, switch, if, else, range
     - make, new
     - maps
