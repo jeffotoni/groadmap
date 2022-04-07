@@ -2,9 +2,7 @@
 
 [Português](./README_ptbr.m![image](https://user-images.githubusercontent.com/1092879/162102366-3ed90f83-6c79-4eed-afb5-4bd19866dbe9.png))
 
-> The intent of this guide is to give you an idea about the Go ecosystem and help guide your learning if you are confused. It is mainly focused on presenting the tools and concepts used in web development.
-
-> Feel free to send comments, suggestions or even a PR improving at some point. 
+> The intent of this guide is to give you an idea about the Go ecosystem and help guide your learning if you are confused. It is mainly focused on presenting the tools and concepts used in web development. Feel free to send comments, suggestions or even a PR improving at some point. 
 
 > I will be super happy to know that you would like to collaborate or that we helped in some way in your formation when it comes to Go.
 
