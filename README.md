@@ -2,7 +2,8 @@
 
 [Português](./README_ptbr.md)
 
-> The intent of this guide is to give you an idea about the Go ecosystem and help guide your learning if you are confused. It is mainly focused on presenting the tools and concepts used in web development. Feel free to send comments, suggestions or even a PR improving at some point. 
+> The intent of this guide is to give you an idea about the Go ecosystem and help guide your learning if you are confused. It is mainly focused on presenting the tools and concepts used in web development. Feel free to send comments
+- suggestions or even a PR improving at some point. 
 
 > I will be super happy to know that you would like to collaborate or that we helped in some way in your formation when it comes to Go.
 
@@ -93,11 +94,18 @@
         - import "my-pkg/util"
         - package mypkg
 
-    - go.mod, go.sum
-    - go mod init, go mod tidy
-    - go mod vendor, go mod download
-    - go env, GO111MODULE=on, GOARCH=amd64
-    - GOPRIVATE, GOPROXY, GOSUMDB
+    - go.mod
+    - go.sum
+    - go mod init
+    - go mod tidy
+    - go mod vendor
+    - go mod download
+    - go env
+    - GO111MODULE=on
+    - GOARCH=amd64
+    - GOPRIVATE
+    - GOPROXY
+    - GOSUMDB
 
 6. Patterns
     - Build
@@ -130,43 +138,43 @@
         - [fastws](https://github.com/dgrr/fastws)
 
 8. net/http
-   - Server
-        - http.NewServeMux
-        - http.Server
-        - http.HandlerFunc
-        - http.HandleFunc
-        - http.Handle
-        - http.Handler
-        - http.Status
-        - next.ServeHTTP
-        - ListenAndServe
-        - ListenAndServeTLS
-        - http.FileServer
-        - http.Dir
-        - http.StripPrefix
+    - Server
+        - [http.NewServeMux](https://pkg.go.dev/net/http#NewServeMux)
+        - [http.Server](https://pkg.go.dev/net/http#Server)
+        - [http.HandlerFunc](https://pkg.go.dev/net/http#HandlerFunc)
+        - [http.HandleFunc](https://pkg.go.dev/net/http#HandleFunc)
+        - [http.Handle](https://pkg.go.dev/net/http#Handle)
+        - [http.Handler](https://pkg.go.dev/net/http#Handler)
+        - [http.Status](https://pkg.go.dev/net/http#Status)
+        - [next.ServeHTTP](https://pkg.go.dev/net/http#ServeHTTP)
+        - [ListenAndServe](https://pkg.go.dev/net/http#ListenAndServe)
+        - [ListenAndServeTLS](https://pkg.go.dev/net/http#ListenAndServeTLS)
+        - [http.FileServer](https://pkg.go.dev/net/http#FileServer)
+        - [http.Dir](https://pkg.go.dev/net/http#Dir)
+        - [http.StripPrefix](https://pkg.go.dev/net/http#StripPrefix)
         - Embed
-        - http.FS
+        - [http.FS](https://pkg.go.dev/net/http#FS)
         - html/template
-            - template.ParseFiles
-            - template.Parse
-            - template.ParseFS
-            - template.New
-            - template.Must
-            - template.Execute
-            - template.ExecuteTemplate
+            - [template.ParseFiles](https://pkg.go.dev/html/template#ParseFiles)
+            - [template.Parse](https://pkg.go.dev/html/template#Parse)
+            - [template.ParseFS](https://pkg.go.dev/html/template#ParseFS)
+            - [template.New](https://pkg.go.dev/html/template#New)
+            - [template.Must](https://pkg.go.dev/html/template#Must)
+            - [template.Execute](https://pkg.go.dev/html/template#Execute)
+            - [template.ExecuteTemplate](https://pkg.go.dev/html/template#ExecuteTemplate)
 
-    82. Client
-        - http.Transport
-        - http.Client
-        - http.Get
-        - http.Post
-        - http.PostForm
-        - ioutil.ReadAll(r io.Reader)
-        - http.NewRequest
-        - http.NewRequestContext
-        - Context.WithCancel
+    - Client
+        - [http.Transport](https://pkg.go.dev/net/http#Transport)
+        - [http.Client](https://pkg.go.dev/net/http#Client)
+        - [http.Get](https://pkg.go.dev/net/http#Get)
+        - [http.Post](https://pkg.go.dev/net/http#Post)
+        - [http.PostForm](https://pkg.go.dev/net/http#PostForm)
+        - [ioutil.ReadAll(r io.Reader)](https://pkg.go.dev/io/ioutil#ReadAll)
+        - [http.NewRequest](https://pkg.go.dev/net/http#NewRequest)
+        - [http.NewRequestContext](https://pkg.go.dev/net/http#NewRequestContext)
+        - [Context.WithCancel](https://pkg.go.dev/context#WithCancel)
 
-    83. Web Frameworks
+    - Web Frameworks
         - [gin](https://github.com/gin-gonic/gin)
         - [echo](https://github.com/labstack/echo)
         - [beego](https://github.com/beego/beego)
@@ -179,7 +187,7 @@
         - [macaron](https://github.com/go-macaron/macaron)
         - [webgo](https://github.com/bnkamalesh/webgo)
 
-    84. Routers
+    - Routers
         - [alien](https://github.com/gernest/alien)
         - [bellt](https://github.com/GuilhermeCaruso/bellt)
         - [bone](https://github.com/go-zoo/bone)
@@ -195,7 +203,7 @@
         - [xmux](https://github.com/rs/xmux)
         - [xujiajun/gorouter](https://github.com/xujiajun/gorouter)
 
-    85. Middlewares
+    - Middlewares
         - [negroni](https://github.com/urfave/negroni)
         - [muxchain](https://github.com/stephens2424/muxchain)
         - [go-wrap](https://github.com/hexdigest/gowrap)
