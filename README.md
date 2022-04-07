@@ -44,10 +44,14 @@
     - methods
     - type interface
     - interface{}
-    - defer, error, panic, recover
+    - defer
+    - error 
+    - panic
+    - recover
 
 2. Goroutines
-    - channel, channel buffer
+    - channel
+    - channel buffer
     - select
     - sync.Mutex
     - sync.Map
