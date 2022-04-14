@@ -51,18 +51,17 @@
     - recover
 
 2. Goroutines
-    - channel
-    - channel buffer
+    - channel, channel buffer
     - select
-    - sync.Mutex
-    - sync.Map
-    - sync.WaitGroup
-    - sync.Pool
+    - [sync.Mutex](https://pkg.go.dev/sync#Mutex)
+    - [sync.Map](https://pkg.go.dev/sync#Map)
+    - [sync.WaitGroup](https://pkg.go.dev/sync#WaitGroup)
+    - [sync.Pool](https://pkg.go.dev/sync#Pool)
 
 3. Runtime
-    - runtime.GOMAXPROCS
-    - runtime.NumCPU()   
-    - runtime.NumGoroutine()
+    - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)
+    - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)   
+    - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)
     
 4. go
     - go test
@@ -87,7 +86,7 @@
 
     - go install golang.org/x/website/tour@latest
 
-5. Modules
+5. Modulos
     - package & import
         - import ..
         - import "fml"

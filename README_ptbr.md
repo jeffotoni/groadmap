@@ -18,33 +18,50 @@
 
 1. Conceitos Básicos & Intermediários
     - generics / [T any](s []T)   
-    - gonstantes, variáveis, iota
-    - func init, types
-    - funcs, variadic, return multiplos valores
-    - closures / funções anônimas
-    - array, slice
-    - for, switch, if, else, range
-    - make, new
-    - maps
-    - ponteiros, structs, métodos
-    - type interface, interface{}
-    - defer, error, panic, recover
+    - [constantes](https://gomanual.jeffotoni.com/pages/language_introduction/introduction/constants.html)
+    - [variáveis](https://gomanual.jeffotoni.com/pages/language_introduction/introduction/variables.html)
+    - [iota](https://gomanual.jeffotoni.com/pages/language_introduction/introduction/iota.html)
+    - func init
+    - [types](https://gomanual.jeffotoni.com/pages/language_introduction/types/index.html)
+    - [funcs](https://gomanual.jeffotoni.com/pages/functions/index.html)
+    - [variadic](https://gomanual.jeffotoni.com/pages/functions/variadic_functions.html)
+    - [return multiplos valores](https://gomanual.jeffotoni.com/pages/functions/return.html)
+    - [closures / funções anônimas](https://gomanual.jeffotoni.com/pages/functions/closures.html)
+    - [array](https://gomanual.jeffotoni.com/pages/arrays/index.html)
+    - [slice](https://gomanual.jeffotoni.com/pages/slices/index.html)
+    - [for](https://gomanual.jeffotoni.com/pages/structures_controlers/for.html)
+    - [switch](https://gomanual.jeffotoni.com/pages/structures_controlers/switch.html)
+    - [if / else](https://gomanual.jeffotoni.com/pages/structures_controlers/if_else.html)
+    - [range](https://gomanual.jeffotoni.com/pages/structures_controlers/range.html)
+    - [make](https://gomanual.jeffotoni.com/pages/slices/make.html)
+    - [new](https://gomanual.jeffotoni.com/pages/structs/new.html)
+    - [maps](https://gomanual.jeffotoni.com/pages/maps/index.html)
+    - [ponteiros](https://gomanual.jeffotoni.com/pages/pointers/index.html)
+    - [structs](https://gomanual.jeffotoni.com/pages/structs/index.html)
+    - [métodos](https://gomanual.jeffotoni.com/pages/methods/index.html)
+    - [type interface](https://gomanual.jeffotoni.com/pages/language_introduction/types/interface.html)
+    - [interface{}](https://gomanual.jeffotoni.com/pages/language_introduction/types/interface_type.html)
+    - [defer](https://gomanual.jeffotoni.com/pages/functions/defer.html)
+    - [error](https://www.educative.io/edpresso/what-is-type-error-in-golang)
+    - [panic](https://gobyexample.com/panic)
+    - [recover](https://gobyexample.com/recover)
 
 2. Goroutines
-    - channel, channel buffer
-    - select
-    - sync.Mutex
-    - sync.Map
-    - sync.WaitGroup
-    - sync.Pool
+    - [channel](https://gomanual.jeffotoni.com/pages/goroutines/channels.html)
+    - [channel buffer](https://gomanual.jeffotoni.com/pages/goroutines/channel_buffering.html)
+    - [select](https://gomanual.jeffotoni.com/pages/goroutines/select.html)
+    - [sync.Mutex](https://pkg.go.dev/sync#Mutex)
+    - [sync.Map](https://pkg.go.dev/sync#Map)
+    - [sync.WaitGroup](https://pkg.go.dev/sync#WaitGroup)
+    - [sync.Pool](https://pkg.go.dev/sync#Pool)
 
 3. Runtime
-    - runtime.GOMAXPROCS
-    - runtime.NumCPU()   
-    - runtime.NumGoroutine()
+    - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)
+    - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)   
+    - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)
     
 4. go
-    - go test
+    - [go test](https://gomanual.jeffotoni.com/pages/commands/go_test.html)
         - go test -v
         - go test -run ^NameFunc$
         - go test -coverprofile
@@ -53,10 +70,10 @@
         - go test -fuzz=Fuzz
 
     - go build & go run .
-        - go run .
+        - [go run .](https://gomanual.jeffotoni.com/pages/commands/go_run.html)
         - go run -race .
         - CGO_ENABLED=0 go build
-        - go build -ldflags="-s -w"
+        - [go build -ldflags="-s -w"](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
         - go build -gcflags '-m -l'
         - GOOS=linux GOARCH=amd64 go build
         - go build GOARCH=wasm GOOS=js go build
@@ -64,7 +81,7 @@
         - go help buildmode
         - go build -buildmode=plugin
 
-    - go install golang.org/x/website/tour@latest
+    - [go install golang.org/x/website/tour@latest](https://gomanual.jeffotoni.com/pages/commands/go_install.html)
 
 5. Modulos
     - package & import
@@ -73,11 +90,18 @@
         - import "my-pkg/util"
         - package mypkg
 
-    - go.mod, go.sum
-    - go mod init, go mod tidy
-    - go mod vendor, go mod download
-    - go env, GO111MODULE=on, GOARCH=amd64
-    - GOPRIVATE, GOPROXY, GOSUMDB
+    - go.mod
+    - go.sum
+    - [go mod init](https://gomanual.jeffotoni.com/pages/commands/go_mod.html)
+    - go mod tidy
+    - go mod vendor
+    - go mod download
+    - [go env](https://gomanual.jeffotoni.com/pages/commands/go_env.html)
+    - GO111MODULE=on
+    - GOARCH=amd64
+    - GOPRIVATE
+    - GOPROXY
+    - GOSUMDB
 
 6. Patterns
     - Build
@@ -189,7 +213,7 @@
             - auth
             - tracing
             - limiter
-            - jwt
+            - [jwt](https://github.com/golang-jwt/jwt)
             - logger
             - cache
             - Instrumentação
