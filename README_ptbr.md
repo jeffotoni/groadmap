@@ -17,11 +17,11 @@
 # Sumário
 
 1. Conceitos Básicos & Intermediários
-    - generics / [T any](s []T)   
+    - [generics](https://gomanual.jeffotoni.com/pages/generics/) 
     - [constantes](https://gomanual.jeffotoni.com/pages/language_introduction/introduction/constants.html)
     - [variáveis](https://gomanual.jeffotoni.com/pages/language_introduction/introduction/variables.html)
     - [iota](https://gomanual.jeffotoni.com/pages/language_introduction/introduction/iota.html)
-    - func init
+    - [func init](https://gomanual.jeffotoni.com/pages/language_introduction/introduction/init.html)
     - [types](https://gomanual.jeffotoni.com/pages/language_introduction/types/index.html)
     - [funcs](https://gomanual.jeffotoni.com/pages/functions/index.html)
     - [variadic](https://gomanual.jeffotoni.com/pages/functions/variadic_functions.html)
@@ -42,9 +42,9 @@
     - [type interface](https://gomanual.jeffotoni.com/pages/language_introduction/types/interface.html)
     - [interface{}](https://gomanual.jeffotoni.com/pages/language_introduction/types/interface_type.html)
     - [defer](https://gomanual.jeffotoni.com/pages/functions/defer.html)
-    - [error](https://www.educative.io/edpresso/what-is-type-error-in-golang)
-    - [panic](https://gobyexample.com/panic)
-    - [recover](https://gobyexample.com/recover)
+    - [error](https://gomanual.jeffotoni.com/pages/language_introduction/types/error.html)
+    - [panic](https://gomanual.jeffotoni.com/pages/erros/panic.html)
+    - [recover](https://gomanual.jeffotoni.com/pages/erros/recover.html)
 
 2. Goroutines
     - [channel](https://gomanual.jeffotoni.com/pages/goroutines/channels.html)
