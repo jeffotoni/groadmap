@@ -9,6 +9,7 @@
 
 # Go Roadmap
 
+<img src="groadmap_new.png" alt="Roadmap Go" style="height: 90%; width:90%;"/>
 <img src="groadmap.png" alt="Roadmap Go" style="height: 90%; width:90%;"/>
 
 <object data="groadmap.pdf" type="application/pdf" width="80%" height="80%">
