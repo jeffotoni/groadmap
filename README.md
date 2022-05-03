@@ -22,8 +22,8 @@
 
 1. Basic & Intermediate Concepts
     - generics / [T any](s []T)   
-    - constants
-    - variables
+    - [constants](https://go.dev/doc/effective_go#constants)
+    - [variables](https://go.dev/doc/effective_go#variables)
     - iota
     - func init
     - types
