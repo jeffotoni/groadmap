@@ -52,7 +52,7 @@
     - [select](https://gomanual.jeffotoni.com/pages/goroutines/select.html)
     - [sync.Mutex](https://pkg.go.dev/sync#Mutex)
     - [sync.Map](https://pkg.go.dev/sync#Map)
-    - [sync.WaitGroup](https://pkg.go.dev/sync#WaitGroup)
+    - [sync.WaitGroup](https://gomanual.jeffotoni.com/pages/goroutines/wait_groups.html)
     - [sync.Pool](https://pkg.go.dev/sync#Pool)
 
 3. Runtime
@@ -61,60 +61,60 @@
     - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)
     
 4. go
-    - [go test](https://gomanual.jeffotoni.com/pages/commands/go_test.html)
-        - go test -v
-        - go test -run ^NameFunc$
-        - go test -coverprofile
-        - go test ../../
-        - go test -bench . -benchmem
-        - go test -fuzz=Fuzz
+    - [go test](https://gomanual.jeffotoni.com/pages/testes/index.html)
+        - [go test -v](https://gomanual.jeffotoni.com/pages/testes/unit.html)
+        - [go test -run ^NameFunc$](https://gomanual.jeffotoni.com/pages/testes/index.html)
+        - [go test -coverprofile](https://gomanual.jeffotoni.com/pages/testes/coverage.html)
+        - [go test ../../](https://gomanual.jeffotoni.com/pages/testes/index.html)
+        - [go test -bench . -benchmem](https://gomanual.jeffotoni.com/pages/testes/benchmark.html)
+        - [go test -fuzz=Fuzz](https://gomanual.jeffotoni.com/pages/testes/fuzz.html)
 
     - go build & go run .
         - [go run .](https://gomanual.jeffotoni.com/pages/commands/go_run.html)
-        - go run -race .
-        - CGO_ENABLED=0 go build
+        - [go run -race .](https://gomanual.jeffotoni.com/pages/commands/go_run.html)
+        - [CGO_ENABLED=0 go build](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
         - [go build -ldflags="-s -w"](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
-        - go build -gcflags '-m -l'
-        - GOOS=linux GOARCH=amd64 go build
-        - go build GOARCH=wasm GOOS=js go build
-        - go build -gcflags -S
-        - go help buildmode
-        - go build -buildmode=plugin
+        - [go build -gcflags '-m -l'](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
+        - [GOOS=linux GOARCH=amd64 go build](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
+        - [go build GOARCH=wasm GOOS=js go build](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
+        - [go build -gcflags -S](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
+        - [go help buildmode](https://gomanual.jeffotoni.com/pages/commands/index.html)
+        - [go build -buildmode=plugin](https://gomanual.jeffotoni.com/pages/commands/go_build.html)
 
     - [go install golang.org/x/website/tour@latest](https://gomanual.jeffotoni.com/pages/commands/go_install.html)
 
 5. Modulos
     - package & import
-        - import ..
-        - import "fml"
-        - import "my-pkg/util"
-        - package mypkg
+        - [import ..](https://www.digitalocean.com/community/tutorials/importing-packages-in-go-pt)
+        - [import "fmt"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go-pt)
+        - [import "my-pkg/util"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go-pt)
+        - [package mypkg](https://www.digitalocean.com/community/tutorials/how-to-write-packages-in-go-pt)
 
-    - go.mod
-    - go.sum
+    - [go.mod](https://gomanual.jeffotoni.com/pages/commands/go_mod.html)
+    - [go.sum](https://faun.pub/understanding-go-mod-and-go-sum-5fd7ec9bcc34)
     - [go mod init](https://gomanual.jeffotoni.com/pages/commands/go_mod.html)
-    - go mod tidy
-    - go mod vendor
-    - go mod download
-    - [go env](https://gomanual.jeffotoni.com/pages/commands/go_env.html)
-    - GO111MODULE=on
-    - GOARCH=amd64
-    - GOPRIVATE
-    - GOPROXY
-    - GOSUMDB
+    - [go mod tidy](https://gomanual.jeffotoni.com/pages/commands/go_mod.html)
+    - [go mod vendor](https://gomanual.jeffotoni.com/pages/commands/go_mod.html)
+    - [go mod download](https://gomanual.jeffotoni.com/pages/commands/go_mod.html)
+    - [go env](https://linuxcommandlibrary.com/man/go-env)
+    - [GO111MODULE=on](https://www.codetd.com/pt/article/12986396)
+    - [GOARCH=amd64](https://buaq.net/go-1925.html)
+    - [GOPRIVATE](https://goproxy.io/docs/GOPRIVATE-env.html)
+    - [GOPROXY](https://jfrog.com/blog/why-goproxy-matters-and-which-to-pick/)
+    - [GOSUMDB](https://goproxy.io/docs/GOSUMDB-env.html)
 
 6. Patterns
-    - Build
-    - Factory Method
-    - Abstract Factory
-    - Adapter
-    - Bridge
-    - Facade
-    - Composite
-    - Decorator
-    - Prototype
-    - Singleton
-    - Template Method
+    - [Build](https://refactoring.guru/pt-br/design-patterns/builder/go/example#example-0)
+    - [Factory Method](https://refactoring.guru/pt-br/design-patterns/factory-method/go/example#example-0)
+    - [Abstract Factory](https://refactoring.guru/pt-br/design-patterns/abstract-factory/go/example#example-0)
+    - [Adapter](https://refactoring.guru/pt-br/design-patterns/adapter/go/example#example-0)
+    - [Bridge](https://refactoring.guru/pt-br/design-patterns/bridge/go/example#example-0)
+    - [Facade](https://refactoring.guru/pt-br/design-patterns/facade/go/example#example-0)
+    - [Composite](https://refactoring.guru/pt-br/design-patterns/composite/go/example#example-0)
+    - [Decorator](https://refactoring.guru/pt-br/design-patterns/decorator/go/example#example-0)
+    - [Prototype](https://refactoring.guru/pt-br/design-patterns/prototype/go/example#example-0)
+    - [Singleton](https://refactoring.guru/pt-br/design-patterns/singleton/go/example#example-1)
+    - [Template Method](https://refactoring.guru/pt-br/design-patterns/template-method/go/example#example-0)
 
 7. fasthttp
     - Frameworks
@@ -206,16 +206,16 @@
         - [interpose](https://github.com/carbocation/interpose)
         - [rye](https://github.com/InVisionApp/rye)
         - Libs middleware
-            - CORS
-            - rate limit
-            - logging
-            - metrics
-            - auth
+            - [CORS](https://docs.gofiber.io/api/middleware/cors)
+            - [rate limit](https://mauricio.github.io/2021/12/30/rate-limiting-in-go.html)
+            - [logging](https://gomanual.jeffotoni.com/pages/fiber/logger.html)
+            - [metrics](https://prometheus.io/docs/guides/go-application/)
+            - [auth](https://docs.gofiber.io/api/middleware/basicauth)
             - tracing
-            - limiter
-            - [jwt](https://github.com/golang-jwt/jwt)
-            - logger
-            - cache
+            - [limiter](https://docs.gofiber.io/api/middleware/limiter)
+            - [jwt](https://github.com/gofiber/jwt)
+            - [logger](https://gomanual.jeffotoni.com/pages/fiber/logger.html)
+            - [cache](https://gomanual.jeffotoni.com/pages/fiber/cache.html)
             - Instrumentação
                 - [Prometheus](https://github.com/prometheus/prometheus)
                 - [Datadog](https://github.com/DataDog/datadog-agent)
@@ -224,30 +224,30 @@
 
 9. Conhecimentos Prévios
     - [git](https://git-scm.com/)
-        - git init
-        - git add .
-        - git commit 
-        - git push
-        - git merge
-        - git rebase
-        - git log
-        - git diff
-        - git show
-        - git clone
+        - [git init](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-init)
+        - [git add .](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-add)
+        - [git commit](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-commit)
+        - [git push](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-push)
+        - [git merge](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-merge)
+        - [git rebase](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Rebase)
+        - [git log](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-log)
+        - [git diff](https://git-scm.com/docs/git-diff)
+        - [git show](https://git-scm.com/docs/git-show)
+        - [git clone](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-clone)
 
     - [docker](https://www.docker.com/)
-        - docker run
-        - docker build
-        - docker images
-        - docker push
-        - docker login
-        - docker ps -a
+        - [docker run](https://docs.docker.com/engine/reference/commandline/run/)
+        - [docker build](https://docs.docker.com/engine/reference/commandline/build/)
+        - [docker images](https://docs.docker.com/engine/reference/commandline/images/)
+        - [docker push](https://docs.docker.com/engine/reference/commandline/push/)
+        - [docker login](https://docs.docker.com/engine/reference/commandline/login/)
+        - [docker ps -a](https://docs.docker.com/engine/reference/commandline/ps/)
 
     - [docker-compose](https://docs.docker.com/compose/)
     - [sql basic syntax](https://www.w3schools.com/sql/sql_syntax.asp)
     - [openssl](https://www.openssl.org/)
-    - ssh-keygen
-    - https/http
+    - [ssh-keygen](https://en.wikipedia.org/wiki/Ssh-keygen)
+    - [https/http](https://pt.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure)
     - [tls/mtls](https://www.cloudflare.com/pt-br/learning/access-management/what-is-mutual-tls/)
 
     - Relacional
