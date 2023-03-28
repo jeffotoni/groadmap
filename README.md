@@ -139,11 +139,11 @@
 8. net/http
     - Server
         - [http.NewServeMux](https://pkg.go.dev/net/http#NewServeMux)
-        - [http.Server](https://pkg.go.dev/net/http#Server)
+        - [http.Server](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/http-server.html)
         - [http.HandlerFunc](https://pkg.go.dev/net/http#HandlerFunc)
         - [http.HandleFunc](https://pkg.go.dev/net/http#HandleFunc)
         - [http.Handle](https://pkg.go.dev/net/http#Handle)
-        - [http.Handler](https://pkg.go.dev/net/http#Handler)
+        - [http.Handler](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/http_handler.html)
         - [http.Status](https://pkg.go.dev/net/http#Status)
         - [next.ServeHTTP](https://pkg.go.dev/net/http#ServeHTTP)
         - [ListenAndServe](https://pkg.go.dev/net/http#ListenAndServe)
@@ -165,7 +165,7 @@
     - Client
         - [http.Transport](https://pkg.go.dev/net/http#Transport)
         - [http.Client](https://pkg.go.dev/net/http#Client)
-        - [http.Get](https://pkg.go.dev/net/http#Get)
+        - [http.Get](https://gobootcamp.jeffotoni.com/en/pages/net_http_client/http-get.html)
         - [http.Post](https://pkg.go.dev/net/http#Post)
         - [http.PostForm](https://pkg.go.dev/net/http#PostForm)
         - [ioutil.ReadAll(r io.Reader)](https://pkg.go.dev/io/ioutil#ReadAll)
@@ -182,9 +182,10 @@
         - gocraft
         - [revel](https://github.com/revel/revel)
         - [buffalo](https://github.com/gobuffalo/buffalo)
-        - [chi](https://github.com/go-chi/chi)
+        - [chi](https://gobootcamp.jeffotoni.com/en/pages/rest/chi.html)
         - [macaron](https://github.com/go-macaron/macaron)
         - [webgo](https://github.com/bnkamalesh/webgo)
+        - [quick](https://github.com/jeffotoni/quick)
 
     - Routers
         - [alien](https://github.com/gernest/alien)
