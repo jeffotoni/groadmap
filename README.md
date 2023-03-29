@@ -27,9 +27,9 @@
     - [iota](https://gobootcamp.jeffotoni.com/en/pages/introduction/iota.html)
     - [func init](https://gobootcamp.jeffotoni.com/en/pages/introduction/init.html)
     - [types](https://gobootcamp.jeffotoni.com/en/pages/types/types.html)
-    - [funcs](https://gobootcamp.jeffotoni.com/en/pages/functions/introduction.html)
-    - [variadic](https://gobootcamp.jeffotoni.com/en/pages/functions/variadic-functions.html)
-    - [return multiples values](https://gobootcamp.jeffotoni.com/en/pages/functions/return.html)
+    - [functions](https://gobootcamp.jeffotoni.com/en/pages/functions/introduction.html)
+    - [variadic functions](https://gobootcamp.jeffotoni.com/en/pages/functions/variadic-functions.html)
+    - [return](https://gobootcamp.jeffotoni.com/en/pages/functions/return.html)
     - [closures/anonymous functions](https://gobootcamp.jeffotoni.com/en/pages/functions/closures.html)
     - [array](https://gobootcamp.jeffotoni.com/en/pages/arrays/introduction.html)
     - [slice](https://gobootcamp.jeffotoni.com/en/pages/slices/introduction.html)
@@ -66,25 +66,25 @@
     
 4. go
     - [go test](https://gobootcamp.jeffotoni.com/en/pages/testes/introduction.html)
-        - [go test -v](https://gobootcamp.jeffotoni.com/en/pages/commands/go-test.html)
-        - [go test -run ^NameFunc$](https://gobootcamp.jeffotoni.com/en/pages/commands/go-run.html)
+        - [go test -v]
+        - [go test -run ^NameFunc$]
         - [go test -coverprofile](https://gobootcamp.jeffotoni.com/en/pages/testes/coverage.html)
         - [go test -bench . -benchmem](https://gobootcamp.jeffotoni.com/en/pages/testes/benchmark.html)
         - [go test -fuzz=Fuzz](https://gobootcamp.jeffotoni.com/en/pages/testes/fuzz.html)
 
     - go build & go run .
         - [go run .](https://gobootcamp.jeffotoni.com/en/pages/commands/go-run.html)
-        - [go run -race .](https://gobootcamp.jeffotoni.com/en/pages/commands/go-run.html)
-        - [CGO_ENABLED=0 go build](https://gobootcamp.jeffotoni.com/en/pages/commands/go-build.html)
-        - [go build -ldflags="-s -w"](https://gobootcamp.jeffotoni.com/en/pages/commands/go-build.html)
-        - [go build -gcflags '-m -l'](https://gobootcamp.jeffotoni.com/en/pages/commands/go-build.html)
-        - [GOOS=linux GOARCH=amd64 go build](https://gobootcamp.jeffotoni.com/en/pages/commands/go-build.html)
-        - [go build GOARCH=wasm GOOS=js go build](https://gobootcamp.jeffotoni.com/en/pages/commands/go-build.html)
-        - [go build -gcflags -S](https://gobootcamp.jeffotoni.com/en/pages/commands/go-build.html)
-        - [go help buildmode](https://gobootcamp.jeffotoni.com/en/pages/commands/introduction.html)
-        - [go build -buildmode=plugin](https://gobootcamp.jeffotoni.com/en/pages/commands/go-build.html)
+        - [go run -race .]
+        - [CGO_ENABLED=0 go build]
+        - [go build -ldflags="-s -w"]
+        - [go build -gcflags '-m -l']
+        - [GOOS=linux GOARCH=amd64 go build]
+        - [go build GOARCH=wasm GOOS=js go build]
+        - [go build -gcflags -S]
+        - [go help buildmode]
+        - [go build -buildmode=plugin]
 
-    - [go install golang.org/x/website/tour@latest](https://gobootcamp.jeffotoni.com/en/pages/commands/go-install.html)
+    - [go install golang.org/x/website/tour@latest](https://pkg.go.dev/golang.org/x/tour)
 
 5. Modules
     - package & import
@@ -96,9 +96,9 @@
     - [go.mod](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
     - [go.sum](https://faun.pub/understanding-go-mod-and-go-sum-5fd7ec9bcc34)
     - [go mod init](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
-    - [go mod tidy](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
-    - [go mod vendor](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
-    - [go mod download](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
+    - [go mod tidy]
+    - [go mod vendor]
+    - [go mod download]
     - [go env](https://linuxcommandlibrary.com/man/go-env)
     - [GO111MODULE=on](https://www.codetd.com/pt/article/12986396)
     - [GOARCH=amd64](https://buaq.net/go-1925.html)
@@ -126,7 +126,7 @@
 
     - Middleware
         - Iu
-        - fiber-middleware
+        - [fiber-middleware](https://gobootcamp.jeffotoni.com/en/pages/fiber/middlewares.html)
 
     - Routing
         - [fasthttp-routing](https://github.com/qiangxue/fasthttp-routing)
@@ -141,14 +141,13 @@
         - [http.NewServeMux](https://pkg.go.dev/net/http#NewServeMux)
         - [http.Server](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/http-server.html)
         - [http.HandlerFunc](https://pkg.go.dev/net/http#HandlerFunc)
-        - [http.HandleFunc](https://pkg.go.dev/net/http#HandleFunc)
         - [http.Handle](https://pkg.go.dev/net/http#Handle)
         - [http.Handler](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/http_handler.html)
         - [http.Status](https://pkg.go.dev/net/http#Status)
-        - [next.ServeHTTP](https://pkg.go.dev/net/http#ServeHTTP)
-        - [ListenAndServe](https://pkg.go.dev/net/http#ListenAndServe)
+        - [next.ServeHTTP](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/http-server.html)
+        - [ListenAndServe](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/listen-and-serve.html)
         - [ListenAndServeTLS](https://pkg.go.dev/net/http#ListenAndServeTLS)
-        - [http.FileServer](https://pkg.go.dev/net/http#FileServer)
+        - [http.FileServer](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/file-server.html)
         - [http.Dir](https://pkg.go.dev/net/http#Dir)
         - [http.StripPrefix](https://pkg.go.dev/net/http#StripPrefix)
         - Embed
@@ -164,26 +163,26 @@
 
     - Client
         - [http.Transport](https://pkg.go.dev/net/http#Transport)
-        - [http.Client](https://pkg.go.dev/net/http#Client)
+        - [http.Client](https://gobootcamp.jeffotoni.com/en/pages/net_http_client/client.html)
         - [http.Get](https://gobootcamp.jeffotoni.com/en/pages/net_http_client/http-get.html)
-        - [http.Post](https://pkg.go.dev/net/http#Post)
+        - [http.Post](https://gobootcamp.jeffotoni.com/en/pages/net_http_client/http-post.html)
         - [http.PostForm](https://pkg.go.dev/net/http#PostForm)
         - [ioutil.ReadAll(r io.Reader)](https://pkg.go.dev/io/ioutil#ReadAll)
-        - [http.NewRequest](https://pkg.go.dev/net/http#NewRequest)
+        - [http.NewRequest](https://gobootcamp.jeffotoni.com/en/pages/net_http_client/http-new-request.html)
         - [http.NewRequestContext](https://pkg.go.dev/net/http#NewRequestContext)
         - [Context.WithCancel](https://pkg.go.dev/context#WithCancel)
 
     - Web Frameworks
-        - [gin](https://github.com/gin-gonic/gin)
-        - [echo](https://github.com/labstack/echo)
-        - [beego](https://github.com/beego/beego)
+        - [gin](https://gobootcamp.jeffotoni.com/en/pages/rest/gin.html)
+        - [echo](https://gobootcamp.jeffotoni.com/en/pages/rest/echo.html)
+        - [beego](https://gobootcamp.jeffotoni.com/en/pages/rest/beego.html)
         - [iris](https://github.com/kataras/iris)
         - [martini](https://github.com/go-martini/martini)
         - gocraft
         - [revel](https://github.com/revel/revel)
         - [buffalo](https://github.com/gobuffalo/buffalo)
         - [chi](https://gobootcamp.jeffotoni.com/en/pages/rest/chi.html)
-        - [macaron](https://github.com/go-macaron/macaron)
+        - [macaron](https://gobootcamp.jeffotoni.com/en/pages/rest/macaron.html)
         - [webgo](https://github.com/bnkamalesh/webgo)
         - [quick](https://github.com/jeffotoni/quick)
 
@@ -195,7 +194,7 @@
         - [goroute](https://github.com/cloudfoundry/gorouter)
         - [httprouter](https://github.com/julienschmidt/httprouter)
         - [httptreemux](https://github.com/dimfeld/httptreemux)
-        - [gorilla/mux](https://github.com/gorilla/mux)
+        - [gorilla/mux](https://gobootcamp.jeffotoni.com/en/pages/router/gorilla-mux.html)
         - [ozzo-routing](https://github.com/go-ozzo/ozzo-routing)
         - pure
         - [siesta](https://github.com/VividCortex/siesta)
