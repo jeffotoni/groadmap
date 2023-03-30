@@ -64,9 +64,7 @@
         - [iota](https://gobootcamp.jeffotoni.com/en/pages/introduction/iota.html)  
         - [func init](https://gobootcamp.jeffotoni.com/en/pages/introduction/init.html)  
 
-    Defer, Constants, Errors, and Panic/Recover  
-        - [defer]
-        - [constants]
+    Errors, and Panic/Recover  
         - [error](https://gobootcamp.jeffotoni.com/en/pages/types/error.html)   
         - [panic](https://gobootcamp.jeffotoni.com/en/pages/erros/panic.html)  
         - [recover](https://gobootcamp.jeffotoni.com/en/pages/erros/recover.html)  
