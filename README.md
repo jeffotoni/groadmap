@@ -22,9 +22,7 @@
 
 ## GO Basic & Intermediary
 
-1. Basic & Intermediate Concepts
-
-    Variables, Types, and Operators  
+1. Basic & Intermediate Concepts 
         - [generics](https://gobootcamp.jeffotoni.com/en/pages/generics/introduction.html)  
         - [constants](https://gobootcamp.jeffotoni.com/en/pages/introduction/constants.html)  
 
