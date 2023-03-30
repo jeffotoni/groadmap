@@ -20,122 +20,122 @@
 
 # Sumary
 
-## GO Basic & Intermediary
+## GO Basic & Intermediary  
 
-1. Basic & Intermediate Concepts
+1. Basic & Intermediate Concepts  
 
-    Variables, Types, and Operators  
-        - [generics](https://gobootcamp.jeffotoni.com/en/pages/generics/introduction.html)  
-        - [constants](https://gobootcamp.jeffotoni.com/en/pages/introduction/constants.html)  
+    Variables, Types, and Operators    
+        - [generics](https://gobootcamp.jeffotoni.com/en/pages/generics/introduction.html)     
+        - [constants](https://gobootcamp.jeffotoni.com/en/pages/introduction/constants.html)    
 
-    if/else, switch  
-        - [switch](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/switch.html)  
-        - [if / else](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/if-else.html)  
+    if/else, switch    
+        - [switch](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/switch.html)    
+        - [if / else](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/if-else.html)    
 
-    Loops (for, range)  
-        - [for](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/for-loop.html)  
-        - [range](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/range.html)  
+    Loops (for, range)    
+        - [for](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/for-loop.html)    
+        - [range](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/range.html)    
 
-    Functions and Methods  
-        - [functions](https://gobootcamp.jeffotoni.com/en/pages/functions/introduction.html)  
-        - [variadic functions](https://gobootcamp.jeffotoni.com/en/pages/functions/variadic-functions.html)  
-        - [return](https://gobootcamp.jeffotoni.com/en/pages/functions/return.html)  
-        - [closures/anonymous functions](https://gobootcamp.jeffotoni.com/en/pages/functions/closures.html)  
-        - [methods](https://gobootcamp.jeffotoni.com/en/pages/methods/function-comparison.html)  
-        - [defer](https://gobootcamp.jeffotoni.com/en/pages/functions/defer.html)  
+    Functions and Methods    
+        - [functions](https://gobootcamp.jeffotoni.com/en/pages/functions/introduction.html)    
+        - [variadic functions](https://gobootcamp.jeffotoni.com/en/pages/functions/variadic-functions.html)    
+        - [return](https://gobootcamp.jeffotoni.com/en/pages/functions/return.html)    
+        - [closures/anonymous functions](https://gobootcamp.jeffotoni.com/en/pages/functions/closures.html)    
+        - [methods](https://gobootcamp.jeffotoni.com/en/pages/methods/function-comparison.html)    
+        - [defer](https://gobootcamp.jeffotoni.com/en/pages/functions/defer.html)    
 
-    Data Structures (array, slice, map, struct)  
-        - [array](https://gobootcamp.jeffotoni.com/en/pages/arrays/introduction.html)  
-        - [slice](https://gobootcamp.jeffotoni.com/en/pages/slices/introduction.html)  
-        - [make](https://gobootcamp.jeffotoni.com/en/pages/slices/make.html)  
-        - [new](https://gobootcamp.jeffotoni.com/en/pages/structs/new.html)  
-        - [maps](https://gobootcamp.jeffotoni.com/en/pages/maps/introduction.html)  
-        - [structs](https://gobootcamp.jeffotoni.com/en/pages/structs/introduction.html)  
+    Data Structures (array, slice, map, struct)    
+        - [array](https://gobootcamp.jeffotoni.com/en/pages/arrays/introduction.html)    
+        - [slice](https://gobootcamp.jeffotoni.com/en/pages/slices/introduction.html)    
+        - [make](https://gobootcamp.jeffotoni.com/en/pages/slices/make.html)    
+        - [new](https://gobootcamp.jeffotoni.com/en/pages/structs/new.html)    
+        - [maps](https://gobootcamp.jeffotoni.com/en/pages/maps/introduction.html)    
+        - [structs](https://gobootcamp.jeffotoni.com/en/pages/structs/introduction.html)    
 
-    Pointers  
-        - [pointers](https://gobootcamp.jeffotoni.com/en/pages/pointers/introduction.html)  
+    Pointers    
+        - [pointers](https://gobootcamp.jeffotoni.com/en/pages/pointers/introduction.html)    
 
-    Types  
-        - [types](https://gobootcamp.jeffotoni.com/en/pages/types/types.html)  
-        - [type interface](https://gobootcamp.jeffotoni.com/en/pages/types/types.html)  
-        - [interface{}](https://gobootcamp.jeffotoni.com/en/pages/types/types-interface.html)  
+    Types    
+        - [types](https://gobootcamp.jeffotoni.com/en/pages/types/types.html)    
+        - [type interface](https://gobootcamp.jeffotoni.com/en/pages/types/types.html)    
+        - [interface{}](https://gobootcamp.jeffotoni.com/en/pages/types/types-interface.html)    
 
-    Initialization  
-        - [iota](https://gobootcamp.jeffotoni.com/en/pages/introduction/iota.html)  
-        - [func init](https://gobootcamp.jeffotoni.com/en/pages/introduction/init.html)  
+    Initialization    
+        - [iota](https://gobootcamp.jeffotoni.com/en/pages/introduction/iota.html)    
+        - [func init](https://gobootcamp.jeffotoni.com/en/pages/introduction/init.html)    
 
-    Errors, and Panic/Recover  
-        - [error](https://gobootcamp.jeffotoni.com/en/pages/types/error.html)   
-        - [panic](https://gobootcamp.jeffotoni.com/en/pages/erros/panic.html)  
-        - [recover](https://gobootcamp.jeffotoni.com/en/pages/erros/recover.html)
+    Errors, and Panic/Recover    
+        - [error](https://gobootcamp.jeffotoni.com/en/pages/types/error.html)     
+        - [panic](https://gobootcamp.jeffotoni.com/en/pages/erros/panic.html)    
+        - [recover](https://gobootcamp.jeffotoni.com/en/pages/erros/recover.html)  
 
-## Goroutines in Go
+## Goroutines in Go  
 
-2. Goroutine
-        - [channel](https://gobootcamp.jeffotoni.com/en/pages/goroutines/channels.html)
-        - [channel buffer](https://gobootcamp.jeffotoni.com/en/pages/goroutines/buffering.html)
-        - [select](https://gobootcamp.jeffotoni.com/en/pages/goroutines/select.html)
-        - [sync.Mutex](https://pkg.go.dev/sync#Mutex)
-        - [sync.Map](https://pkg.go.dev/sync#Map)
-        - [sync.WaitGroup](https://gobootcamp.jeffotoni.com/en/pages/goroutines/wait-groups.html)
-        - [sync.Pool](https://pkg.go.dev/sync#Pool)
+2. Goroutine  
+        - [channel](https://gobootcamp.jeffotoni.com/en/pages/goroutines/channels.html)  
+        - [channel buffer](https://gobootcamp.jeffotoni.com/en/pages/goroutines/buffering.html)  
+        - [select](https://gobootcamp.jeffotoni.com/en/pages/goroutines/select.html)  
+        - [sync.Mutex](https://pkg.go.dev/sync#Mutex)  
+        - [sync.Map](https://pkg.go.dev/sync#Map)  
+        - [sync.WaitGroup](https://gobootcamp.jeffotoni.com/en/pages/goroutines/wait-groups.html)  
+        - [sync.Pool](https://pkg.go.dev/sync#Pool)  
 
-## Runtime
+## Runtime  
 
 3.
-        - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)
-        - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)   
-        - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)
+        - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)  
+        - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)     
+        - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)  
 
-## Go
+## Go  
 
-4.
-    Go Test
-        - [go test](https://gobootcamp.jeffotoni.com/en/pages/testes/introduction.html)
-        - [go test -bench . -benchmem](https://gobootcamp.jeffotoni.com/en/pages/testes/benchmark.html)
-        - [go test -coverprofile](https://gobootcamp.jeffotoni.com/en/pages/testes/coverage.html)
-        - [go test -fuzz=Fuzz](https://gobootcamp.jeffotoni.com/en/pages/testes/fuzz.html)
-        - [go test -run ^NameFunc$]
-        - [go test -v]
+4. 
+    Go Test  
+        - [go test](https://gobootcamp.jeffotoni.com/en/pages/testes/introduction.html)  
+        - [go test -bench . -benchmem](https://gobootcamp.jeffotoni.com/en/pages/testes/benchmark.html)  
+        - [go test -coverprofile](https://gobootcamp.jeffotoni.com/en/pages/testes/coverage.html)  
+        - [go test -fuzz=Fuzz](https://gobootcamp.jeffotoni.com/en/pages/testes/fuzz.html)  
+        - [go test -run ^NameFunc$]  
+        - [go test -v]  
 
-    Go Build & Go Run
-        - [CGO_ENABLED=0 go build]
-        - [go build -buildmode=plugin]
-        - [go build -gcflags -S]
-        - [go build -gcflags '-m -l']
-        - [go build -ldflags="-s -w"]
-        - [GOOS=linux GOARCH=amd64 go build]
-        - [go build GOARCH=wasm GOOS=js go build]
-        - [go help buildmode]
-        - [go run .](https://gobootcamp.jeffotoni.com/en/pages/commands/go-run.html)
-        - [go run -race .]
+    Go Build & Go Run  
+        - [CGO_ENABLED=0 go build]  
+        - [go build -buildmode=plugin]  
+        - [go build -gcflags -S]  
+        - [go build -gcflags '-m -l']  
+        - [go build -ldflags="-s -w"]  
+        - [GOOS=linux GOARCH=amd64 go build]  
+        - [go build GOARCH=wasm GOOS=js go build]  
+        - [go help buildmode]  
+        - [go run .](https://gobootcamp.jeffotoni.com/en/pages/commands/go-run.html)  
+        - [go run -race .]  
 
-    Installation
-        - [go install golang.org/x/website/tour@latest](https://pkg.go.dev/golang.org/x/tour)
+    Installation  
+        - [go install golang.org/x/website/tour@latest](https://pkg.go.dev/golang.org/x/tour)  
 
-## Modules
+## Modules  
 
-5. Package & Import
-        - [import](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)
-        - [import "fmt"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)
-        - [import "my-pkg/util"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)
-        - [package mypkg](https://www.digitalocean.com/community/tutorials/how-to-write-packages-in-go)
+5. Package & Import  
+        - [import](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)  
+        - [import "fmt"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)  
+        - [import "my-pkg/util"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)  
+        - [package mypkg](https://www.digitalocean.com/community/tutorials/how-to-write-packages-in-go)  
 
-    Go Module Features
-        - [go.mod](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
-        - [go.sum](https://faun.pub/understanding-go-mod-and-go-sum-5fd7ec9bcc34)
-        - [go mod init](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
-        - [go mod tidy]
-        - [go mod vendor]
-        - [go mod download]
-        - [go env](https://linuxcommandlibrary.com/man/go-env)
-        - [GO111MODULE=on](https://www.codetd.com/pt/article/12986396)
-        - [GOARCH=amd64](https://buaq.net/go-1925.html)
-        - [GOPRIVATE](https://goproxy.io/docs/GOPRIVATE-env.html)
-        - [GOPROXY](https://jfrog.com/blog/why-goproxy-matters-and-which-to-pick/)
-        - [GOSUMDB](https://goproxy.io/docs/GOSUMDB-env.html)
+    Go Module Features  
+        - [go.mod](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)  
+        - [go.sum](https://faun.pub/understanding-go-mod-and-go-sum-5fd7ec9bcc34)  
+        - [go mod init](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)  
+        - [go mod tidy]  
+        - [go mod vendor]  
+        - [go mod download]  
+        - [go env](https://linuxcommandlibrary.com/man/go-env)  
+        - [GO111MODULE=on](https://www.codetd.com/pt/article/12986396)  
+        - [GOARCH=amd64](https://buaq.net/go-1925.html)  
+        - [GOPRIVATE](https://goproxy.io/docs/GOPRIVATE-env.html)  
+        - [GOPROXY](https://jfrog.com/blog/why-goproxy-matters-and-which-to-pick/)  
+        - [GOSUMDB](https://goproxy.io/docs/GOSUMDB-env.html)  
 
-## Pattern
+## Pattern  
 
 6. Patterns
         - [Build](https://refactoring.guru/design-patterns/builder/go/example#example-0)
