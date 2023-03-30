@@ -24,19 +24,19 @@
 
 1. Basic & Intermediate Concepts
 
-    Variables, Types, and Operators
+    Variables, Types, and Operators  
         - [generics](https://gobootcamp.jeffotoni.com/en/pages/generics/introduction.html)  
         - [constants](https://gobootcamp.jeffotoni.com/en/pages/introduction/constants.html)  
 
-    if/else, switch
+    if/else, switch  
         - [switch](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/switch.html)  
         - [if / else](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/if-else.html)  
 
-    Loops (for, range)
+    Loops (for, range)  
         - [for](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/for-loop.html)  
         - [range](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/range.html)  
 
-    Functions and Methods
+    Functions and Methods  
         - [functions](https://gobootcamp.jeffotoni.com/en/pages/functions/introduction.html)  
         - [variadic functions](https://gobootcamp.jeffotoni.com/en/pages/functions/variadic-functions.html)  
         - [return](https://gobootcamp.jeffotoni.com/en/pages/functions/return.html)  
@@ -44,7 +44,7 @@
         - [methods](https://gobootcamp.jeffotoni.com/en/pages/methods/function-comparison.html)  
         - [defer](https://gobootcamp.jeffotoni.com/en/pages/functions/defer.html)  
 
-    Data Structures (array, slice, map, struct)
+    Data Structures (array, slice, map, struct)  
         - [array](https://gobootcamp.jeffotoni.com/en/pages/arrays/introduction.html)  
         - [slice](https://gobootcamp.jeffotoni.com/en/pages/slices/introduction.html)  
         - [make](https://gobootcamp.jeffotoni.com/en/pages/slices/make.html)  
@@ -52,19 +52,19 @@
         - [maps](https://gobootcamp.jeffotoni.com/en/pages/maps/introduction.html)  
         - [structs](https://gobootcamp.jeffotoni.com/en/pages/structs/introduction.html)  
 
-    Pointers
+    Pointers  
         - [pointers](https://gobootcamp.jeffotoni.com/en/pages/pointers/introduction.html)  
 
-    Types
+    Types  
         - [types](https://gobootcamp.jeffotoni.com/en/pages/types/types.html)  
         - [type interface](https://gobootcamp.jeffotoni.com/en/pages/types/types.html)  
         - [interface{}](https://gobootcamp.jeffotoni.com/en/pages/types/types-interface.html)  
 
-    Initialization
+    Initialization  
         - [iota](https://gobootcamp.jeffotoni.com/en/pages/introduction/iota.html)  
         - [func init](https://gobootcamp.jeffotoni.com/en/pages/introduction/init.html)  
 
-    Defer, Constants, Errors, and Panic/Recover
+    Defer, Constants, Errors, and Panic/Recover  
         - [defer]
         - [constants]
         - [error](https://gobootcamp.jeffotoni.com/en/pages/types/error.html)   
@@ -72,7 +72,7 @@
         - [recover](https://gobootcamp.jeffotoni.com/en/pages/erros/recover.html)  
         
 
-2. Goroutines
+2. Goroutines  
     - [channel](https://gobootcamp.jeffotoni.com/en/pages/goroutines/channels.html)
     - [channel buffer](https://gobootcamp.jeffotoni.com/en/pages/goroutines/buffering.html)
     - [select](https://gobootcamp.jeffotoni.com/en/pages/goroutines/select.html)
@@ -81,12 +81,12 @@
     - [sync.WaitGroup](https://gobootcamp.jeffotoni.com/en/pages/goroutines/wait-groups.html)
     - [sync.Pool](https://pkg.go.dev/sync#Pool)
 
-3. Runtime
+3. Runtime  
     - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)
     - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)   
     - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)
     
-4. go
+4. go  
     - [go test](https://gobootcamp.jeffotoni.com/en/pages/testes/introduction.html)
         - [go test -v]
         - [go test -run ^NameFunc$]
