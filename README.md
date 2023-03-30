@@ -82,7 +82,7 @@
 
 ## Runtime  
 
-3. Runtime 
+3. Runtime   
         - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)  
         - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)     
         - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)  
