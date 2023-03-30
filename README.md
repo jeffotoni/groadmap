@@ -67,98 +67,113 @@
     Errors, and Panic/Recover  
         - [error](https://gobootcamp.jeffotoni.com/en/pages/types/error.html)   
         - [panic](https://gobootcamp.jeffotoni.com/en/pages/erros/panic.html)  
-        - [recover](https://gobootcamp.jeffotoni.com/en/pages/erros/recover.html)  
-        
-## Package & Import
+        - [recover](https://gobootcamp.jeffotoni.com/en/pages/erros/recover.html)
 
-2. Goroutines  
-    - [channel](https://gobootcamp.jeffotoni.com/en/pages/goroutines/channels.html)
-    - [channel buffer](https://gobootcamp.jeffotoni.com/en/pages/goroutines/buffering.html)
-    - [select](https://gobootcamp.jeffotoni.com/en/pages/goroutines/select.html)
-    - [sync.Mutex](https://pkg.go.dev/sync#Mutex)
-    - [sync.Map](https://pkg.go.dev/sync#Map)
-    - [sync.WaitGroup](https://gobootcamp.jeffotoni.com/en/pages/goroutines/wait-groups.html)
-    - [sync.Pool](https://pkg.go.dev/sync#Pool)
+## Goroutines in Go
 
-3. Runtime  
-    - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)
-    - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)   
-    - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)
-    
-4. go  
-    - [go test](https://gobootcamp.jeffotoni.com/en/pages/testes/introduction.html)
-        - [go test -v]
-        - [go test -run ^NameFunc$]
-        - [go test -coverprofile](https://gobootcamp.jeffotoni.com/en/pages/testes/coverage.html)
+2. Goroutine
+        - [channel](https://gobootcamp.jeffotoni.com/en/pages/goroutines/channels.html)
+        - [channel buffer](https://gobootcamp.jeffotoni.com/en/pages/goroutines/buffering.html)
+        - [select](https://gobootcamp.jeffotoni.com/en/pages/goroutines/select.html)
+        - [sync.Mutex](https://pkg.go.dev/sync#Mutex)
+        - [sync.Map](https://pkg.go.dev/sync#Map)
+        - [sync.WaitGroup](https://gobootcamp.jeffotoni.com/en/pages/goroutines/wait-groups.html)
+        - [sync.Pool](https://pkg.go.dev/sync#Pool)
+
+## Runtime
+
+3.
+        - [runtime.GOMAXPROCS](https://pkg.go.dev/runtime#GOMAXPROCS)
+        - [runtime.NumCPU()](https://pkg.go.dev/runtime#NumCPU)   
+        - [runtime.NumGoroutine()](https://pkg.go.dev/runtime#NumGoroutine)
+
+## Go
+
+4.
+    Go Test
+        - [go test](https://gobootcamp.jeffotoni.com/en/pages/testes/introduction.html)
         - [go test -bench . -benchmem](https://gobootcamp.jeffotoni.com/en/pages/testes/benchmark.html)
+        - [go test -coverprofile](https://gobootcamp.jeffotoni.com/en/pages/testes/coverage.html)
         - [go test -fuzz=Fuzz](https://gobootcamp.jeffotoni.com/en/pages/testes/fuzz.html)
+        - [go test -run ^NameFunc$]
+        - [go test -v]
 
-    - go build & go run .
-        - [go run .](https://gobootcamp.jeffotoni.com/en/pages/commands/go-run.html)
-        - [go run -race .]
+    Go Build & Go Run
         - [CGO_ENABLED=0 go build]
-        - [go build -ldflags="-s -w"]
+        - [go build -buildmode=plugin]
+        - [go build -gcflags -S]
         - [go build -gcflags '-m -l']
+        - [go build -ldflags="-s -w"]
         - [GOOS=linux GOARCH=amd64 go build]
         - [go build GOARCH=wasm GOOS=js go build]
-        - [go build -gcflags -S]
         - [go help buildmode]
-        - [go build -buildmode=plugin]
+        - [go run .](https://gobootcamp.jeffotoni.com/en/pages/commands/go-run.html)
+        - [go run -race .]
 
-    - [go install golang.org/x/website/tour@latest](https://pkg.go.dev/golang.org/x/tour)
+    Installation
+        - [go install golang.org/x/website/tour@latest](https://pkg.go.dev/golang.org/x/tour)
 
-5. Modules
-    - package & import
-        - [import ..](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)
+## Modules
+
+5. Package & Import
+        - [import](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)
         - [import "fmt"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)
         - [import "my-pkg/util"](https://www.digitalocean.com/community/tutorials/importing-packages-in-go)
         - [package mypkg](https://www.digitalocean.com/community/tutorials/how-to-write-packages-in-go)
 
-    - [go.mod](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
-    - [go.sum](https://faun.pub/understanding-go-mod-and-go-sum-5fd7ec9bcc34)
-    - [go mod init](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
-    - [go mod tidy]
-    - [go mod vendor]
-    - [go mod download]
-    - [go env](https://linuxcommandlibrary.com/man/go-env)
-    - [GO111MODULE=on](https://www.codetd.com/pt/article/12986396)
-    - [GOARCH=amd64](https://buaq.net/go-1925.html)
-    - [GOPRIVATE](https://goproxy.io/docs/GOPRIVATE-env.html)
-    - [GOPROXY](https://jfrog.com/blog/why-goproxy-matters-and-which-to-pick/)
-    - [GOSUMDB](https://goproxy.io/docs/GOSUMDB-env.html)
+    Go Module Features
+        - [go.mod](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
+        - [go.sum](https://faun.pub/understanding-go-mod-and-go-sum-5fd7ec9bcc34)
+        - [go mod init](https://gobootcamp.jeffotoni.com/en/pages/commands/go-mod.html)
+        - [go mod tidy]
+        - [go mod vendor]
+        - [go mod download]
+        - [go env](https://linuxcommandlibrary.com/man/go-env)
+        - [GO111MODULE=on](https://www.codetd.com/pt/article/12986396)
+        - [GOARCH=amd64](https://buaq.net/go-1925.html)
+        - [GOPRIVATE](https://goproxy.io/docs/GOPRIVATE-env.html)
+        - [GOPROXY](https://jfrog.com/blog/why-goproxy-matters-and-which-to-pick/)
+        - [GOSUMDB](https://goproxy.io/docs/GOSUMDB-env.html)
+
+## Pattern
 
 6. Patterns
-    - [Build](https://refactoring.guru/design-patterns/builder/go/example#example-0)
-    - [Factory Method](https://refactoring.guru/design-patterns/factory-method/go/example#example-0)
-    - [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory/go/example#example-0)
-    - [Adapter](https://refactoring.guru/design-patterns/adapter/go/example#example-0)
-    - [Bridge](https://refactoring.guru/design-patterns/bridge/go/example#example-0)
-    - [Facade](https://refactoring.guru/design-patterns/facade/go/example#example-0)
-    - [Composite](https://refactoring.guru/design-patterns/composite/go/example#example-0)
-    - [Decorator](https://refactoring.guru/design-patterns/decorator/go/example#example-0)
-    - [Prototype](https://refactoring.guru/design-patterns/prototype/go/example#example-0)
-    - [Singleton](https://refactoring.guru/design-patterns/singleton/go/example#example-1)
-    - [Template Method](https://refactoring.guru/design-patterns/template-method/go/example#example-0)
+        - [Build](https://refactoring.guru/design-patterns/builder/go/example#example-0)
+        - [Factory Method](https://refactoring.guru/design-patterns/factory-method/go/example#example-0)
+        - [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory/go/example#example-0)
+        - [Adapter](https://refactoring.guru/design-patterns/adapter/go/example#example-0)
+        - [Bridge](https://refactoring.guru/design-patterns/bridge/go/example#example-0)
+        - [Facade](https://refactoring.guru/design-patterns/facade/go/example#example-0)
+        - [Composite](https://refactoring.guru/design-patterns/composite/go/example#example-0)
+        - [Decorator](https://refactoring.guru/design-patterns/decorator/go/example#example-0)
+        - [Prototype](https://refactoring.guru/design-patterns/prototype/go/example#example-0)
+        - [Singleton](https://refactoring.guru/design-patterns/singleton/go/example#example-1)
+        - [Template Method](https://refactoring.guru/design-patterns/template-method/go/example#example-0)
 
-7. fasthttp
-    - Frameworks
+## Fasthttp
+
+7. 
+    Frameworks
         - [Fiber](https://gobootcamp.jeffotoni.com/en/pages/fiber/introduction.html)
         - [Gramework](https://gobootcamp.jeffotoni.com/en/pages/rest/gramework.html)
 
-    - Middleware
+    Middleware
         - Iu
         - [fiber-middleware](https://gobootcamp.jeffotoni.com/en/pages/fiber/middlewares.html)
 
-    - Routing
+    Routing
         - [fasthttp-routing](https://github.com/qiangxue/fasthttp-routing)
         - [atreugo](https://github.com/savsgio/atreugo)
 
-    - Websocket
+    Websocket
         - fast-http-socket
         - [fastws](https://github.com/dgrr/fastws)
 
-8. net/http
-    - Server
+## Net/Http
+
+8. 
+    
+    Server
         - [http.NewServeMux](https://pkg.go.dev/net/http#NewServeMux)
         - [http.Server](https://gobootcamp.jeffotoni.com/en/pages/net_http_server/http-server.html)
         - [http.HandlerFunc](https://pkg.go.dev/net/http#HandlerFunc)
@@ -182,7 +197,7 @@
             - [template.Execute](https://pkg.go.dev/html/template#Execute)
             - [template.ExecuteTemplate](https://pkg.go.dev/html/template#ExecuteTemplate)
 
-    - Client
+    Client
         - [http.Transport](https://pkg.go.dev/net/http#Transport)
         - [http.Client](https://gobootcamp.jeffotoni.com/en/pages/net_http_client/client.html)
         - [http.Get](https://gobootcamp.jeffotoni.com/en/pages/net_http_client/http-get.html)
@@ -193,7 +208,7 @@
         - [http.NewRequestContext](https://pkg.go.dev/net/http#NewRequestContext)
         - [Context.WithCancel](https://pkg.go.dev/context#WithCancel)
 
-    - Web Frameworks
+    Web Frameworks
         - [gin](https://gobootcamp.jeffotoni.com/en/pages/rest/gin.html)
         - [echo](https://gobootcamp.jeffotoni.com/en/pages/rest/echo.html)
         - [beego](https://gobootcamp.jeffotoni.com/en/pages/rest/beego.html)
@@ -207,7 +222,7 @@
         - [webgo](https://github.com/bnkamalesh/webgo)
         - [quick](https://github.com/jeffotoni/quick)
 
-    - Routers
+    Routers
         - [alien](https://github.com/gernest/alien)
         - [bellt](https://github.com/GuilhermeCaruso/bellt)
         - [bone](https://github.com/go-zoo/bone)
@@ -223,13 +238,14 @@
         - [xmux](https://github.com/rs/xmux)
         - [xujiajun/gorouter](https://github.com/xujiajun/gorouter)
 
-    - Middlewares
+    Middlewares
         - [negroni](https://github.com/urfave/negroni)
         - [muxchain](https://github.com/stephens2424/muxchain)
         - [go-wrap](https://github.com/hexdigest/gowrap)
         - [interpose](https://github.com/carbocation/interpose)
         - [rye](https://github.com/InVisionApp/rye)
-        - Middeware libs
+
+    Middeware Libs
             - [CORS](https://docs.gofiber.io/api/middleware/cors)
             - [rate limit](https://mauricio.github.io/2021/12/30/rate-limiting-in-go.html)
             - [logging](https://gomanual.jeffotoni.com/pages/fiber/logger.html)
@@ -241,13 +257,16 @@
             - [logger](https://gomanual.jeffotoni.com/pages/fiber/logger.html)
             - [cache](https://gomanual.jeffotoni.com/pages/fiber/cache.html)
             - Instrumentation
-                - [Prometheus](https://github.com/prometheus/prometheus)
-                - [Datadog](https://github.com/DataDog/datadog-agent)
-                - [New Relic](https://github.com/newrelic/go-agent)
-                - [loggly](https://github.com/segmentio/go-loggly)
+            - [Prometheus](https://github.com/prometheus/prometheus)
+            - [Datadog](https://github.com/DataDog/datadog-agent)
+            - [New Relic](https://github.com/newrelic/go-agent)
+            - [loggly](https://github.com/segmentio/go-loggly)
 
-9. Previous Knowledge
-    - [git](https://git-scm.com/)
+## Previous Knowledge
+
+9.  
+    Git
+        - [git](https://git-scm.com/)
         - [git init](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-init)
         - [git add .](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-add)
         - [git commit](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-commit)
@@ -258,8 +277,9 @@
         - [git diff](https://git-scm.com/docs/git-diff)
         - [git show](https://git-scm.com/docs/git-show)
         - [git clone](http://guides.beanstalkapp.com/version-control/common-git-commands.html#git-clone)
+    
 
-    - [docker](https://www.docker.com/)
+    [Docker](https://www.docker.com/)
         - [docker run](https://docs.docker.com/engine/reference/commandline/run/)
         - [docker build](https://docs.docker.com/engine/reference/commandline/build/)
         - [docker images](https://docs.docker.com/engine/reference/commandline/images/)
@@ -274,14 +294,14 @@
     - [https/http](https://en.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure)
     - [tls/mtls](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/)
 
-    - Relational
+    Relational
         - [PostgreSQL](https://www.postgresql.org/)
         - [MySql](https://www.mysql.com/)
         - [SqlServer](https://www.microsoft.com/sql-server/sql-server-2019)
         - [Oracle](https://www.oracle.com/br/database/)
         - [MariaDB](https://mariadb.org/)
 
-    - NoSql
+    NoSql
         - [MongoDB](https://www.mongodb.com)
         - [Cassandra](https://cassandra.apache.org/_/index.html)
         - [RavenDB](https://ravendb.net/)
@@ -292,7 +312,7 @@
         - [Elasticsearch](https://www.elastic.co/what-is/elasticsearch)
         - [ArangoDB](https://www.arangodb.com/)
 
-    - Queue
+    Queue
         - [RabbitMQ](https://www.rabbitmq.com/)
         - [KubeMQ](https://kubemq.io/)
         - [SQS Aws](https://aws.amazon.com/sqs/)
@@ -300,14 +320,14 @@
         - [Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
         - [ActiveMQ](https://activemq.apache.org/)
 
-    - Stream
+    Stream
         - [Kafka](https://kafka.apache.org/)
         - [Redpanda](https://redpanda.com/)
         - [KubeMQ](https://kubemq.io/)
         - [Nats](https://nats.io/)
         - [Kinesis Aws](https://aws.amazon.com/kinesis/)
 
-    - Protocols
+    Protocols
         - Applications
             - [gRPC](https://grpc.io/)
             - [rpc](https://en.wikipedia.org/wiki/Remote_procedure_call)
