@@ -33,7 +33,7 @@
         - [if / else](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/if-else.html)    
 
     Loops (for, range)    
-        - [for](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/for-loop.html)    
+        - [for](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/for-loop.html)  
         - [range](https://gobootcamp.jeffotoni.com/en/pages/structures_controlers/range.html)    
 
     Functions and Methods    
@@ -137,8 +137,8 @@
 
 ## Pattern   
 
-6. Patterns  
-        - [Build](https://refactoring.guru/design-patterns/builder/go/example#example-0)  
+6. Padrões  
+        - [Builder](https://refactoring.guru/design-patterns/builder/go/example#example-0)  
         - [Factory Method](https://refactoring.guru/design-patterns/factory-method/go/example#example-0)  
         - [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory/go/example#example-0)  
         - [Adapter](https://refactoring.guru/design-patterns/adapter/go/example#example-0)  
@@ -161,7 +161,7 @@
         - Iu  
         - [fiber-middleware](https://gobootcamp.jeffotoni.com/en/pages/fiber/middlewares.html)  
 
-    Routing  
+    Roteamento  
         - [fasthttp-routing](https://github.com/qiangxue/fasthttp-routing)  
         - [atreugo](https://github.com/savsgio/atreugo)  
 
