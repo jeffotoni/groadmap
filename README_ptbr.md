@@ -193,18 +193,18 @@
             - [template.Execute](https://pkg.go.dev/html/template#Execute)  
             - [template.ExecuteTemplate](https://pkg.go.dev/html/template#ExecuteTemplate)  
 
-    Cliente
-        - [http.Transport](https://pkg.go.dev/net/http#Transport)
-        - [http.Client](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/client.html)
-        - [http.Get](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/http-get.html)
-        - [http.Post](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/http-post.html)
-        - [http.PostForm](https://pkg.go.dev/net/http#PostForm)
-        - [ioutil.ReadAll(r io.Reader)](https://pkg.go.dev/io/ioutil#ReadAll)
-        - [http.NewRequest](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/http-new-request.html)
-        - [http.NewRequestContext](https://pkg.go.dev/net/http#NewRequestContext)
-        - [Context.WithCancel](https://pkg.go.dev/context#WithCancel)
+    Cliente  
+        - [http.Transport](https://pkg.go.dev/net/http#Transport)  
+        - [http.Client](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/client.html)  
+        - [http.Get](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/http-get.html)  
+        - [http.Post](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/http-post.html)  
+        - [http.PostForm](https://pkg.go.dev/net/http#PostForm)  
+        - [ioutil.ReadAll(r io.Reader)](https://pkg.go.dev/io/ioutil#ReadAll)  
+        - [http.NewRequest](https://gobootcamp.jeffotoni.com/br/pages/net_http_client/http-new-request.html)  
+        - [http.NewRequestContext](https://pkg.go.dev/net/http#NewRequestContext)  
+        - [Context.WithCancel](https://pkg.go.dev/context#WithCancel)  
 
-    Frameworks Web
+    Frameworks Web  
         - [gin](https://gobootcamp.jeffotoni.com/br/pages/rest/gin.html)
         - [echo](https://gobootcamp.jeffotoni.com/br/pages/rest/echo.html)
         - [beego](https://gobootcamp.jeffotoni.com/br/pages/rest/beego.html)
